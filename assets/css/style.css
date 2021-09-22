@@ -1,52 +1,95 @@
 body {
-    font-family: "Lucida Console", "Courier New", Courier, monospace;
-    background-color: lavender;
+  font-family: "Lucida Console", "Courier New", Courier, monospace;
+  background-color: lavender;
 }
 
 nav {
-    height: 60px;
-    width: 100%;
-    background-color: rebeccapurple;
-    position: relative;
-    text-align: right;
-  }
-nav ul {
-    padding-top: 40px;
+  height: 60px;
+  width: 100%;
+  background-color: rebeccapurple;
+  position: relative;
+  text-align: right;
+  
 }
- nav li {
-    display: inline;
-    color: lavender;
-    padding: 15px;
-    text-decoration: underline;
-  }
-  nav a{
-      color:lavender;
-  }
-  header{
-    height: 200px;
-    width: 100%;
-    background-image: url("../images/colorful-fluid-art-art-background-diy-abstract-flowing-texture.jpg");
-    /* <a href='https://www.freepik.com/photos/abstract-background'>Abstract background photo created by rawpixel.com - www.freepik.com</a> */
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  section{
-      color: rebeccapurple;
-      display: inline;
-      /* height: fit-content; */
-      /* width: 100%; */
-  }
-  h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav ul {
+  padding-top: 40px;
+}
+nav li {
+  display: inline;
+  color: lavender;
+  padding: 15px;
+  text-decoration: underline;
+}
+nav a{
+    color:lavender;
+}
+header{
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/colorful-fluid-art-art-background-diy-abstract-flowing-texture.jpg");
+  /* <a href='https://www.freepik.com/photos/abstract-background'>Abstract background photo created by rawpixel.com - www.freepik.com</a> */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+section{
     color: rebeccapurple;
-    font-size: large;
-    font-weight: 300;
+    display: inline;
+    /* height: fit-content; */
+    /* width: 100%; */
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rebeccapurple;
+  font-size: large;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+div #bio{
+    height: fit-content;
+    width: 80%;
+}
+
+.hero{ 
+  width: 90%;
+  height: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rebeccapurple;
+  
+}
+.cv{
+  width: 90%;
+  height: 200px;
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rebeccapurple; */
+}
+
+.hero header {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  align-content: center;
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
   }
-  }
-  div #bio{
-      height: fit-content;
-      width: 80%;
-  }
+}
