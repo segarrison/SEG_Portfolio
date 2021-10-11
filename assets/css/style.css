@@ -1,12 +1,12 @@
 body {
   font-family: "Lucida Console", "Courier New", Courier, monospace;
-  background-color: lavender;
+  background-color: rgb(133, 153, 173);
 }
 
 nav {
   height: 60px;
   width: 100%;
-  background-color: rebeccapurple;
+  background-color: rgb(74, 33, 114);
   position: relative;
   text-align: right;
 }
@@ -53,27 +53,37 @@ div #bio {
 }
 
 .hero {
-  width: 90%;
-  height: 400px;
+  width: 90vw;
+  height: 60vh;
   border-style: solid;
-  border-width: 1px;
-  border-color: orange;
+  border-width: 3px;
+  border-color: rgb(74, 33, 114);
   padding: 10px;
   margin: auto;
   border-radius: 20px;
   box-shadow: 10px 10px 5px rebeccapurple;
+  background-color: lavender;
 }
+#otherProjects {
+  padding-top: 10px;
+  align-content: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .small {
   display: inline-block;
   width: 30%;
   height: 300px;
   border-style: solid;
-  border-width: 1px;
-  border-color: orange;
+  border-width: 3px;
+  border-color: rgb(74, 33, 114);
   padding: 10px;
-  margin: auto;
+  margin: 0 auto;
   border-radius: 20px;
   box-shadow: 10px 10px 5px rebeccapurple;
+  background-color: lavender;
 }
 .cv {
   width: 90%;
