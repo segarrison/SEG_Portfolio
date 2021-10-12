@@ -1,6 +1,6 @@
 body {
   font-family: "Lucida Console", "Courier New", Courier, monospace;
-  background-color: rgb(133, 153, 173);
+  background-color: rgb(146, 173, 201);
   font-size: 100%;
 }
 
@@ -59,6 +59,14 @@ h1 {
   font-size: xx-large;
   font-weight: 300;
   text-decoration: underline;
+}
+#name {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 7em;
+  text-align: left;
+  justify-content: start;
+  color: rgb(34, 18, 51);
 }
 #About_Me {
   width: 75%;
@@ -157,6 +165,21 @@ img .small {
 
 h2 {
   text-align: center;
+}
+#Contact_Me {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(74, 33, 114);
+
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+#Contact_Me h1 {
+  color: black;
+}
+#github {
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
