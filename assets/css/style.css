@@ -33,8 +33,10 @@ header {
   position: relative;
 }
 header img {
-  height: 80%;
-  width: 32%;
+  /* height: 80%;
+  width: 32%; */
+  height: 260px;
+  width: 270px;
   position: absolute;
   right: 20px;
   bottom: -15px;
