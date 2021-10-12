@@ -1,6 +1,7 @@
 body {
   font-family: "Lucida Console", "Courier New", Courier, monospace;
   background-color: rgb(133, 153, 173);
+  font-size: 100%;
 }
 
 nav {
@@ -31,6 +32,19 @@ header {
   background-position: center;
   position: relative;
 }
+header img {
+  height: 80%;
+  width: 32%;
+  position: absolute;
+  right: 20px;
+  bottom: -15px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(74, 33, 114);
+  border-radius: 20px;
+  box-shadow: 8px 8px 5px rgb(35, 10, 59);
+}
 section {
   color: rebeccapurple;
   display: inline;
@@ -42,14 +56,22 @@ h1 {
   justify-content: center;
   align-items: center;
   color: rebeccapurple;
-  font-size: large;
+  font-size: xx-large;
   font-weight: 300;
   text-decoration: underline;
 }
-
+#About_Me {
+  width: 75%;
+  height: fit-content;
+  margin: auto;
+  padding: 20px 0px;
+  text-align: center;
+}
 div #bio {
   height: fit-content;
   width: 80%;
+  margin: auto;
+  color: rebeccapurple;
 }
 
 .hero {
